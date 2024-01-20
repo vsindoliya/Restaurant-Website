@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurent-Website</title>
+    <link rel="icon" href="image1.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <img src="data:image/png;base64,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"
+        alt="logo" id="logo">
+    <div class="navbar">
+        <ul id="navigation-panel">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#About-Us">ABOUT</a></li>
+            <li><a href="#menu">MENU</a></li>
+            <li><a href="#Gallery">GALLERY</a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">BLOG 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Blog Home</a>
+                  <a href="#">Blog Single</a>
+                </div>
+              </div></a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">PAGES
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Element</a>
+                  <a href="#">Level 2</a>
+                </div>
+              </div></a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+        <h5>WIDE OPTIONS OF CHOICE</h5>
+        <h1>Delicious Recipes</h1>
+        <p>Inappropriate behaviour is often laughed off as "boys will be boys", women face higher conduct standards
+            especially in the workplace. That's why it is crucial that, as women. </p>
+        <button class="btn-red">CHECK OUR MENU</button>
+    </section>
+
+    <section id="About-Us">
+        <div class="left">
+            <h1>About Our Story</h1>
+            <p>Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <button class="btn-red btn-about">VIEW FULL MENU</button>
+        </div>
+        <div class="right">
+            <img src="image3.jpg" alt="" height="400px" width="500px">
+        </div>
+    </section>
+
+
+<div id="menu">
+    <h1 class="center">What kind of food we serve to you</h1>
+    <p class="center">Who are in extremely love with eco friendly system</p>
+    <nav class="menu-nav">
+        <ul class="menu-display">
+            <li class="bg-red">All Menu</li>
+            <li>Breakfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Budget Meal</li>
+            <li>Buffet</li>
+        </ul>
+    </nav>
+
+    <div class="cards">
+        <div class="card">
+            <div>
+                <h5>Cappuccion</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+        <div class="card">
+            <div>
+                <h5>Americano</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+        <div class="card">
+            <div>
+                <h5>Macchiato</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+        <div class="card">
+            <div>
+                <h5>Mocha</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+        <div class="card">
+            <div>
+                <h5>Piccolo Latte</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+        <div class="card">
+            <div>
+                <h5>Ristretto</h5>
+                <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+            </div>
+            <p>$49</p>
+        </div>
+    </div>
+</div>
+
+<div class="reservation-upper">
+    <div class="reservation">
+        <div class="left-reservation">
+            <h1>Reserve Your Seats to Confirm if You Come with Your Family</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+        </div>
+        <div class="right-reservation">
+            <form action="#" method="get">
+                <input type="text" name="name" placeholder="Your Name"/>
+                <input type="email" placeholder="Your Email Address">
+                <input type="number" name="" id="" placeholder="Phone Number">
+                <input type="datetime" name="" id="" placeholder="Select Date & Time">
+                <select>
+                    <option value="" disabled selected class="event">Select Event</option>
+                    <option value="E1" class="event">Event One</option>
+                    <option value="E2" class="event">Event Two</option>
+                    <option value="E3" class="event">Event Three</option>
+                    <option value="E4" class="event">Event Four</option>
+                </select>
+                <button class="btn-red">Make Reservation</button>
+            </form>
+        </div>
+    </div>
+</div>
+<section class="Gallery">
+    <h1 class="center">Food and Customer Gallery</h1>
+    <p class="center">Who are in extremely love with eco friendly system.</p>
+    <nav class="menu-nav">
+        <ul class="menu-display">
+            <li class="bg-red">All Menu</li>
+            <li>Breakfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Budget Meal</li>
+            <li>Buffet</li>
+        </ul>
+    </nav>
+    <div>
+        <img class="img1" src="./food1.jpg" alt="this is food1 image">
+        <img class="img2" src="./food2.jpg" alt="this is food2 image">
+        <img class="img3" src="./food3.jpg" alt="this is food3 image">
+        <img class="img4" src="./food4.jpg" alt="this is food4 image">
+        <img class="img5" src="./food5.jpg" alt="this is food5 image">
+        <img class="img6" src="./food6.jpg" alt="this is food6 image">
+    </div>
+</section>
+<div class="feedback-upper">
+    <div class="feedback">
+        <div class="left-feedback">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="man1.jpeg" style=" height:300px ;width:300px">
+                  <div class="text"><h1>Vishal Kumar</h1></div>
+                  <p>The food quality and services are top-class. You should try it once. </p>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="./man2.jpg" style="height:300px ; width:500px">
+                  <div class="text"><h1>Mridul Sharma</h1></div>
+                  <p>Love this place and the food is just awesome. </p>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="./man3.jpg" style="width:500px">
+                  <div class="text"><h1>Priyanshu Sharma</h1></div>
+                  <p>Everything is simply perfect about this place. Highly suggested</p>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blog">
+    <h1 class="center">Latest From Our Blog</h1>
+    <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="img7" >
+        <img src="./food7.jpg" alt="this is food7 image">
+        <p class="date">20 Jan 2024 </p>
+        <h2>How to cook a red chill tadka food</h2>
+        <p id="fix">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="img8" >
+        <img src="./food8.jpg" alt="this is food8 image">
+        <p class="date">20 Jan 2024 </p>
+        <h2>How to cook yeggie soup</h2>
+        <p id="fix">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <div class="img9" >
+        <img src="./food9.jpg" alt="this is food9 image">
+        <p class="date">20 Jan 2024 </p>
+        <h2>How to cook a manchurian</h2>
+        <p id="fix">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+</div>
+<div class="contact">
+    <div class="timing">
+        <h2>Opening Hours</h2>
+        <ul type="none" class="hr-list" >
+            <li class="weekly">
+                <span>Monday - Friday</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>08.00 am - 10.00 pm</span>
+            </li>
+            <li class="weekend1">
+                <span>Saturday</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>08.00 am - 10.00 pm</span>
+            </li>
+            <li class=" weekend2">
+                <span>Sunday</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;
+                <span>08.00 am - 10.00 pm</span>
+            </li>
+            </ul>
+    </div>
+    <div class="contactus">
+        <h2>Contact Us</h2>
+        <p>
+        56/8, los angeles, rochy beach, Santa monica, United states of america - 1205
+        </p>
+        <p class="number">
+        012-6532-568-9746
+        <br>
+        <br>
+        012-6532-569-9748
+        </p>
+    </div>
+    <div class="Newsletter">
+        <h2>Newsletter</h2>
+        <p>You can trust us. we only send promo offers, not a single spam.</p>
+        <label for="emailinput"></label>
+        <input type="text" id="emailinput" placeholder="Your Email Address">
+        <button class="submit" type="submit" style="margin: 0 auto;">&rarr;</button>
+    </div>
+</div>
+<div class="footer">
+    <footer>
+        <h2>Copyright ©2024 All rights reserved | This WebSite is made with 
+            <i class="fa fa-heart-o" aria-hidden="true"></i> by 
+            <a href="#">Restaurent</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="links" href="#"><i class="fab fa-instagram"></i></a>
+            &nbsp;
+            <a id="links" href="#"><i class="fab fa-facebook"></i></a>
+            &nbsp;
+            <a id="links" href="#"><i class="fab fa-twitter"></i></a>
+        </h2>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
